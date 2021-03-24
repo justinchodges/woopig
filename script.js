@@ -12,7 +12,7 @@
             if (
                 postLinkHref.indexOf('//twitter.com/') >= 0
                 || postLinkHref.indexOf('//mobile.twitter.com/') >= 0
-                || postLinkHref.indexOf('//t.co/')
+                || postLinkHref.indexOf('//t.co/') >= 0
             ) {
                 twitterLinks.push(postLinks[i]);
             }
